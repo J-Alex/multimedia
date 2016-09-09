@@ -1,0 +1,17 @@
+{
+  "name": "familias-unidas",
+  "version": "1.0.0",
+  "description": "multimedia",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "B-markt IT division",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.15.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-util": "^3.0.7"
+  }
+}
