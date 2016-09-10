@@ -17,7 +17,10 @@
         <li data-menuanchor="fourthPage"><a href="#fourthPage">cuarta</a></li>
     </ul>
     <div id="fullpage">
-        <div class="primera section"></div>
+        <div id="seccion1" class="section">
+            <img src="assets/img/index.png" alt="traslucido"></img>
+            <a href="#secondPage">INICIO</a>
+        </div>
         <div class="section">
             <div class="slide"></div>
             <div class="slide"></div>
@@ -35,7 +38,7 @@
         $(document).ready(function() {
             $('#fullpage').fullpage({
                 menu: '#myMenu',
-                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+                //sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
                 anchors:['firstPage', 'secondPage', 'thirdPage','fourthPage'],
                 afterLoad: function(anchorLink, index){
                     $menu = $("#myMenu");
