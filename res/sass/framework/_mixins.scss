@@ -1,4 +1,8 @@
-@mixin bgi($imagen) {
+//
+//   MIXINS
+//
+
+@mixin background-image($imagen) {
     background: {
         image: url("#{$imagefolder}#{$imagen}");
         position: 0 0;
