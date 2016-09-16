@@ -22,6 +22,9 @@ li {
   z-index: inherit;
 }
 
+/*
+ *    FONTS
+ */
 @font-face {
   font-family: architect;
   src: url("../fonts/ArchitectsDaughter.ttf");
@@ -32,6 +35,9 @@ li {
   src: url("../fonts/Avenir.ttf");
 }
 
+/*
+ *    TEXTO
+ */
 p {
   text-align: justify;
   line-height: 1.5;
@@ -57,9 +63,6 @@ p {
   padding: .5rem;
   color: #0093c9;
   font-weight: 600;
-  /*margin: 1rem;*/
-  /*-webkit-border-radius: 5px;
-    -moz-border-radius: 5px;*/
   border-radius: 5px;
   max-width: calc(100% / 7);
   text-align: center;
@@ -148,7 +151,7 @@ p {
 }
 
 /*
- *    SLIDE 1
+ *    PORTADA
  */
 .portada > .fp-tableCell img {
   width: 50%;
@@ -180,19 +183,12 @@ p {
   max-width: 100%;
 }
 
+/*
+ *    PRESENTACION
+ */
 .presentacion {
   background-image: url("../img/pies.jpg");
   background-position: 0 0;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
-
-/*
- *    SLIDE 3
- */
-/*.content-wrapper {
-    @extend %flex;
-    //@extend %flex--column;
-    @extend %centerV;
-    //flex-wrap: wrap;
-}*/
