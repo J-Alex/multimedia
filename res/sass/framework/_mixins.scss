@@ -10,3 +10,10 @@
         repeat: no-repeat;
     }
 }
+
+@mixin tipografia($fuente , $size) {
+    font: {
+        family: $fuente;
+        size: $size;
+    }
+}

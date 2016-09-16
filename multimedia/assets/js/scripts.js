@@ -21,3 +21,17 @@ if(window.location.hash == "#firstPage"){//$link1.hasClass("active")){
 } else {
     $menu.css("top", "0");
 }*/
+//'use strict';
+//(function(){
+    var modalContent = ["uno","dos","tres","cuatro","cinco <br> seis"];
+    $contModal = $('.cont-reading');
+    var modalCont = document.getElementById('modal-body_parrafo');
+    
+    $contModal.each(function(index, content){
+        $(this).click(function(){
+            //console.log(index);
+            modalCont.innerHTML = modalContent[index];
+        });
+    });
+    //console.log($contModal);
+//}());
