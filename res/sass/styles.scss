@@ -1,7 +1,12 @@
 @import './framework/_variables.scss';
 @import './framework/_mixins.scss';
 @import './framework/_customize.scss';
+@import './framework/_fuentes.scss';
+@import './framework/_text.scss';
 
 
 @import './layouts/_menuTab.scss';
-@import './layouts/_slide1.scss';
+@import './layouts/_slides.scss';
+@import './layouts/_portada.scss';
+@import './layouts/_presentacion.scss';
+@import './layouts/_slide3.scss';

@@ -1,8 +1,19 @@
-@mixin bgi($imagen) {
+//
+//   MIXINS
+//
+
+@mixin background-image($imagen) {
     background: {
         image: url("#{$imagefolder}#{$imagen}");
         position: 0 0;
         size: 100% 100%;
         repeat: no-repeat;
+    }
+}
+
+@mixin tipografia($fuente , $size) {
+    font: {
+        family: $fuente;
+        size: $size;
     }
 }

@@ -1,0 +1,100 @@
+/*
+ *    SLIDES SETTINGS
+ */
+ 
+// Placeholder Selectors
+%flex {
+    display: flex !important;
+}
+
+%flex--between {
+    justify-content: space-between;
+}
+
+%centerV {
+    align-items: center;
+}
+
+%flex--center {
+    //@extend %flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%flex--column {
+    flex-direction: column;
+}
+
+%cienxcien {
+    width: 100%;
+    height: 100% !important;
+}
+
+@mixin flex--row {
+    flex-direction: row;
+}
+
+.text-center, h1, h2 {
+    text-align: center;
+}
+
+// Slides default setting 
+.section {
+    background: {
+        image: url('../img/pasto.png');
+        repeat: repeat-x;
+        position-y: calc(100vh - 150px);
+    }
+    
+    @at-root #{&}_title {
+        margin-top: 6rem;
+        margin-bottom: 0;
+        color: $colorTitle;
+        @include tipografia(architect, 2.7em);
+    }
+    
+    @at-root #{&}_subtitle {
+        margin-top: .7em;
+        @include tipografia(avenir, 2em);
+    }
+}
+
+.fp-tableCell {
+    //display: flex !important;
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+    @extend %flex;
+    @extend %flex--column;
+}
+
+.content {
+    @extend %flex;
+    @extend %flex--between;
+    
+    p {
+        font: {
+            weight: 700;
+            size: 1.3em;
+        }
+        width: 76%;
+        padding-top: 2rem;
+    }
+    
+    span{
+        cursor: pointer;
+        text-decoration: underline;
+        color: $colorTitle;
+        float: right;
+    }
+    
+    img {
+        width: 20%; height: 325px;
+        
+    }
+    
+}
+
+.content_p--alone {
+    margin: 0 auto;
+}
