@@ -146,6 +146,23 @@ p {
   height: 325px;
 }
 
+.slide-cover {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2.5rem;
+}
+
+.slide-cover .slide-cover_p {
+  width: 59%;
+  padding-top: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+.slide-cover .slide-cover_img {
+  width: 40%;
+}
+
 .content_p--alone {
   margin: 0 auto;
 }
