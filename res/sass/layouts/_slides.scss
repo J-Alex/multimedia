@@ -99,11 +99,19 @@
     width: 90%;
     margin: 0 auto;
     padding-top: 2.5rem;
+    
     .slide-cover_p {
         width: 59%;
         padding-top: 0;
         -webkit-margin-before: 0;
         -webkit-margin-after: 0;
+        
+        li {
+            list-style-type: disc;
+            font-weight: 700;
+            font-size: 1.5em;
+            line-height: 1.5;
+        }
     }
     
     .slide-cover_img {

@@ -61,7 +61,7 @@ p {
 .myMenu__link {
   background-color: rgba(255, 255, 255, 0.7);
   padding: .5rem;
-  color: #0093c9;
+  color: #12aca3;
   font-weight: 600;
   border-radius: 5px;
   max-width: calc(100% / 7);
@@ -110,7 +110,7 @@ p {
 .section_title {
   margin-top: 6rem;
   margin-bottom: 0;
-  color: #0093c9;
+  color: #12aca3;
   font-family: architect;
   font-size: 2.7em;
 }
@@ -137,7 +137,7 @@ p {
 .content span {
   cursor: pointer;
   text-decoration: underline;
-  color: #0093c9;
+  color: #12aca3;
   float: right;
 }
 
@@ -157,6 +157,13 @@ p {
   padding-top: 0;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
+}
+
+.slide-cover .slide-cover_p li {
+  list-style-type: disc;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1.5;
 }
 
 .slide-cover .slide-cover_img {
