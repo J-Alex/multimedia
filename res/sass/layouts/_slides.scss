@@ -78,7 +78,7 @@
             size: 1.3em;
         }
         width: 76%;
-        padding-top: 2rem;
+        //padding-top: 1rem;
     }
     
     span{
@@ -111,6 +111,9 @@
             font-weight: 700;
             font-size: 1.5em;
             line-height: 1.5;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
     

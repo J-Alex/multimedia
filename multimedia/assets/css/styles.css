@@ -131,7 +131,6 @@ p {
   font-weight: 700;
   font-size: 1.3em;
   width: 76%;
-  padding-top: 2rem;
 }
 
 .content span {
@@ -164,6 +163,10 @@ p {
   font-weight: 700;
   font-size: 1.5em;
   line-height: 1.5;
+}
+
+.slide-cover .slide-cover_p li:hover {
+  text-decoration: underline;
 }
 
 .slide-cover .slide-cover_img {
