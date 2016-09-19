@@ -76,7 +76,7 @@ p {
 }
 
 .myMenu__link {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(200, 200, 200, 0.6);
   padding: .5rem;
   color: #12aca3;
   font-weight: 600;
@@ -191,6 +191,7 @@ p {
 
 .content_p--alone {
   margin: 0 auto;
+  font-size: 1.3em;
 }
 
 /*
@@ -230,7 +231,7 @@ p {
  *    PRESENTACION
  */
 .presentacion {
-  background-image: url("../img/pies.jpg");
+  background-image: url("../img/wall.png");
   background-position: 0 0;
   background-size: 100% 100%;
   background-repeat: no-repeat;
