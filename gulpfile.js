@@ -10,11 +10,11 @@ gulp.task('scss', function() {
 
 gulp.task('build', ['scss',], function(){
     console.log('Build complete');
-})
+});
 
 gulp.task('browser-sync', ['build'], function() {
     browserSync.init({
-        port: 9000,
+        port: 8080,
         server: {
             baseDir: "./multimedia"
         }

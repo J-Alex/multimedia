@@ -78,7 +78,7 @@ p {
 .myMenu__link {
   background-color: rgba(200, 200, 200, 0.6);
   padding: .5rem;
-  color: #12aca3;
+  color: #fff;
   font-weight: 600;
   border-radius: 5px;
   max-width: calc(100% / 7);
@@ -194,6 +194,18 @@ p {
   font-size: 1.2em;
 }
 
+.glosario h2.subtitulo {
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 1.6em;
+}
+
+.glosario hr {
+  margin-top: 0;
+  width: 100%;
+  border: 1px solid #000;
+}
+
 /*
  *    PORTADA
  */
@@ -231,7 +243,7 @@ p {
  *    PRESENTACION
  */
 .presentacion {
-  background-image: url("../img/wall.png");
+  background-image: url("../img/wall.jpg");
   background-position: 0 0;
   background-size: 100% 100%;
   background-repeat: no-repeat;
