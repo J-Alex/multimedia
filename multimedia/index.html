@@ -72,7 +72,8 @@
                         <u>2. Pornografía utilizando imágenes de niñas, niños y  adolescentes <br></u>
                         <u>3. Turismo con fines de explotación sexual comercial infantil <br></u>
                         <u>4. Trata de niñas, niños y adolescentes con propósitos de explotación sexual. <br></u>
-                        <br>
+                        <br><br>
+                        <span class="cont-reading"><a href="#">Leer completo en el documento (Página 13)</a></span>
                     </p>
                 </div>
                 <!--fin del contenido-->
@@ -122,24 +123,25 @@
             </div>
             <div class="slide">
                 <!--contenido de la multimedia-->
-                <h1 class="section_title">Actores Involucrados en la ESCI</h1>
-                <h2 class="section_subtitle">¿Quiénes son las victimas de ESCI?</h2>
+                <h1 class="section_title"></h1>
+                <h2 class="section_subtitle">Actores Involucrados en la ESCI</h2>
                 <div class="content">
                     <p>
+                      <b>¿Quiénes son las victimas de ESCI?</b><br>
                         Niño/a, adolescente. Se entiende por niño/a todo ser humano menor de dieciocho
                         años de edad, salvo que, en virtud de la ley que le sea aplicable, haya alcanzado antes la mayoría de edad.
                          <br><br>
                          <b>Quiénes cometen este delito ¿Quiénes son los  transgresores?</b>
-                        <br><br>
+                        <br>
                         <u>Explotador/a. <br></u>
                         <u>El cliente-explotador/a <br></u>
                         <u>Proxeneta <br></u>
                         <u>Intermediario/a <br></u>
                          <br>
-                        <br>
-                        <span class="cont-reading" data-toggle="modal" data-target="#miModal">Continuar Leyendo</span>
+
+                        <span class="cont-reading"><a href="#">Leer completo en el documento (Página 18)</a></span>
                     </p>
-                    <img src="assets/img/personajes1.png"></img>
+                    <img src="assets/img/turista.png"></img>
                 </div>
                 <!--fin del contenido-->
             </div>
@@ -147,7 +149,7 @@
                 <!--contenido de la multimedia-->
                 <h1 class="section_title"></h1>
                 <h2 class="section_subtitle">Causas y Factores  que contribuyen al desarrollo de ESCI en el ámbito del turismo</h2>
-                <div class="content_p--alone">
+                <div class="content">
                     <p>
                       Existen una serie de factores/causas de diversa naturaleza que  favorecen,
                       se produzcan situaciones  de ESCI en el ámbito del turismo así como
@@ -159,6 +161,7 @@
                       <u><b>Factores En NNA  </u></b><br>
                          <br>
                     </p>
+                    <img src="assets/img/guia.png"></img>
                 </div>
                 <!--fin del contenido-->
             </div>
@@ -166,7 +169,7 @@
                 <!--contenido de la multimedia-->
                 <h1 class="section_title"></h1>
                 <h2 class="section_subtitle">Consecuencias de la explotación sexual comercial en niñas, niños y adolescentes</h2>
-                <div class="content_p--alone">
+                <div class="content">
                     <p>
                       Existen una serie de consecuencias de diversa naturaleza que provoca la
                       ESCI en el ámbito del turismo donde los más afectados son las/os NNA.
@@ -186,6 +189,7 @@
 
                          <br>
                     </p>
+                    <img src="assets/img/silueta.png"></img>
                 </div>
                 <!--fin del contenido-->
             </div>
@@ -226,12 +230,27 @@
                 <div class="content_p--alone">
                     <p>
 
-                      <u><b>¿ESCI lo mismo que abuso sexual?  </u></b><br>
-                      <u><b>  ¿Es aún explotación sexual cuando la víctima da su “consentimiento”?  </u></b><br>
-
-
-
-                         <br>
+                      <b>¿ESCI lo mismo que abuso sexual?  </b><br>
+                      Tanto la ESCI como el abuso sexual son expresiones de violencia sexual
+                      hacia NNA, ambas buscan someter y dominar, vulnerando derechos
+                      fundamentales de las personas. <br>
+                      La ESCI siempre implica un intercambio, tanto en dinero, especias,
+                      protección o cualquier otra cosa, “es por algo”. Este producto no siempre
+                      queda en manos de la persona víctima, sino  en manos de sus familiares,
+                      proxenetas o  tratantes. <br><br>
+                      <b>  ¿Es aún explotación sexual cuando la víctima da su “consentimiento”?  </b><br>
+                      Si, a pesar de dar su consentimiento, el NNA sigue siendo víctima de
+                      ESCI. No hay excusas. El desconocimiento de la edad, la vestimenta o
+                      la apariencia del NNA no son argumentos válidos para justificar estos
+                      comportamientos. <br>
+                      Los responsables de que este fenómeno exista y se siga reproduciendo son
+                      los adultos, bien sea desde la promoción, el consumo o la no reprobación
+                      de la ESCI, Los explotadores no son solamente los proxenetas que someten
+                      a los NNA a la prostitución, sino también cualquier persona que mantenga
+                      relaciones sexuales con NNA. El “consumidor” de sexo pago con NNA  el
+                      mal llamado “cliente,” es responsable del delito.
+                         <br><br>
+                         <span class="cont-reading"><a href="#">Leer completo en el documento (pagina 30)</a></span>
                     </p>
                 </div>
                 <!--fin del contenido-->
@@ -843,20 +862,20 @@
                     }
                 }*/
             });
-            
+
             /*tooltips y sus atributos*/
             $slidesBtn = $('.fp-slidesNav ul > li').attr({"data-toggle": "tooltip", "data-placement": "top"});
-            
+
             /*agregar contenido personalizado a los tootltips*/
             //$.each($slidesBtn, function(index, content){
             $slidesBtn.each(function(index, content){
                 $(this).attr("title", arreglo[index]);
                 //$(this).appendChild(elemento);
             });
-            
+
             /**Inicializar bootstrap tooltips*/
             $('[data-toggle="tooltip"]').tooltip();
-            
+
         });
     </script>
     <div class="modal fade" id="miModal">
