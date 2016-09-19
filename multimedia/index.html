@@ -845,17 +845,20 @@
                     }
                 }*/
             });
-
+            
             /*tooltips y sus atributos*/
             $slidesBtn = $('.fp-slidesNav ul > li').attr({"data-toggle": "tooltip", "data-placement": "top"});
-
+            
             /*agregar contenido personalizado a los tootltips*/
             //$.each($slidesBtn, function(index, content){
             $slidesBtn.each(function(index, content){
                 $(this).attr("title", arreglo[index]);
+                //$(this).appendChild(elemento);
             });
+            
             /**Inicializar bootstrap tooltips*/
             $('[data-toggle="tooltip"]').tooltip();
+            
         });
     </script>
     <div class="modal fade" id="miModal">
@@ -868,8 +871,7 @@
                 <div id="modal-body" class="modal-body">
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-primary">aceptar</button>
-                    <button class="btn btn-default" data-dismiss="modal">cancelar</button>
+                    <span class="btn btn-default" data-dismiss="modal">cerrar</span>
                 </div>
             </div>
         </div>

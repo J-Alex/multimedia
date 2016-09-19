@@ -124,5 +124,28 @@
 .content_p--alone {
     margin: 0 auto;
 }
+/*.fp-slidesNav span, .fp-slidesNav a {
+    left: 2px !important;
+    top: 2px !important;
+}
+.fp-slidesNav span, .fp-slidesNav a, .fp-slidesNav li {
+    height: 15px !important;
+    width: 15px !important;
+}*/
 
+/*.fp-slidesNav ul li:hover a span {
+    margin: 0;
+}*/
+/*.fp-slidesNav span {
+    top: 0/ !important;
+    left: 0 !important;
+}
+.fp-slidesNav span, .fp-slidesNav li  {
+    height: 15px !important;
+    width: 15px !important;
+}
 
+.fp-slidesNav a.active span {
+    height: 30px !important;
+    width: 30px !important;
+}*/
