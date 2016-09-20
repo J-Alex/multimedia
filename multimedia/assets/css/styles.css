@@ -181,7 +181,7 @@ p {
   line-height: 1.5;
 }
 
-.slide-cover .slide-cover_p li:hover {
+.slide-cover .slide-cover_p li a:hover {
   text-decoration: underline;
 }
 
