@@ -249,6 +249,11 @@ p {
   background-repeat: no-repeat;
 }
 
+.presentacion .fp-tableCell {
+  width: 100% !important;
+  min-width: 100% !important;
+}
+
 .sponsors {
   position: relative;
   top: calc(100vh - 184px);
@@ -260,8 +265,8 @@ p {
 .opciones {
   display: flex;
   position: relative;
-  top: 25vh;
+  top: 0vh;
   left: 0;
-  justify-content: space-around;
-  font-size: 1.4em;
+  justify-content: flex-end;
+  font-size: 1em;
 }

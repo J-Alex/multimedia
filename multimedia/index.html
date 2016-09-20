@@ -25,6 +25,8 @@
             <img src="assets/img/index.png" alt="traslucido"></img>
             <a href="#2" title="derecha">INICIO</a>
         </div>
+        
+        
         <div class="section presentacion">
             <div class="opciones">
                 <a class="myMenu__link" href="#">Documento Completo</a>
@@ -32,6 +34,9 @@
             </div>
             <img class="sponsors" src="assets/img/pie.png" alt="sponsors">
         </div>
+        
+        
+        
         <div class="section generales">
             <div class="slide">
                 <!--contenido de la multimedia-->
@@ -1011,10 +1016,13 @@
 
                     if(index == 1){
                         $menu.animate({top: "100vh"});
+                        $(".myMenu__link").css("background-color", "transparent");
                     } else if(index == 2){
                         $menu.animate({top: "70vh"});
+                        $(".myMenu__link").css("background-color", "transparent");
                     } else {
                         $menu.animate({top: "0"});
+                        $(".myMenu__link").css("background-color", "rgba(0,0,0,0.7)");
                     }
                 },
                 /*onLeave: function(index, nextIndex, direction){

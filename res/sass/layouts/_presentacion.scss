@@ -3,6 +3,10 @@
  */
 .presentacion {
     @include background-image('wall.jpg');
+    .fp-tableCell {
+        width: 100% !important;
+        min-width: 100% !important;
+    }
 }
 
 .sponsors {
@@ -16,8 +20,8 @@
 .opciones {
     display: flex;
     position: relative;
-    top: 25vh;
+    top: 0vh;
     left: 0;
-    justify-content: space-around;
-    font-size: 1.4em;
+    justify-content: flex-end;
+    font-size: 1em;
 }
