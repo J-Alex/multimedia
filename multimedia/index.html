@@ -6,6 +6,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="dist/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="dist/acordeon.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
 
 
@@ -963,7 +964,7 @@
     <script type="text/javascript" src="dist/jquery-3.1.0.min.js"></script>
 
     <script src="dist/bootstrap.js"></script>
-    <link rel="stylesheet" href="dist/bootstrap.css">
+    <link rel="stylesheet" href="dist/multimedia.css">
 
     <script type="text/javascript" src="dist/jquery.fullpage.min.js"></script>
     <script>
@@ -1019,13 +1020,16 @@
 
                     if(index == 1){
                         $menu.animate({top: "100vh"});
-                        $(".myMenu__link").css("background-color", "transparent");
+                       $(".myMenu__link").css("background-color", "transparent");
                     } else if(index == 2){
                         $menu.animate({top: "70vh"});
+                        $menu.css("background", "rgba(18,172,163,0.5)");
                         $(".myMenu__link").css("background-color", "transparent");
+                        //$(".myMenu__link active").css("background-color", "none");
                     } else {
                         $menu.animate({top: "0"});
-                        $(".myMenu__link").css("background-color", "rgba(0,0,0,0.7)");
+                        $menu.css("background", "transparent");
+                        $(".myMenu__link").css("background-color", "rgba(200,200,200,0.7)");
                     }
                 },
                 /*onLeave: function(index, nextIndex, direction){
