@@ -1,7 +1,7 @@
 /*
  *    SLIDES SETTINGS
  */
- 
+
 // Placeholder Selectors
 %flex {
     display: flex !important;
@@ -38,21 +38,21 @@
     text-align: center;
 }
 
-// Slides default setting 
+// Slides default setting
 .section {
     background: {
         image: url('../img/pasto.png');
         repeat: repeat-x;
         position-y: calc(100vh - 150px);
     }
-    
+
     @at-root #{&}_title {
         margin-top: 6rem;
         margin-bottom: 0;
         color: $colorTitle;
         @include tipografia(architect, 2.7em);
     }
-    
+
     @at-root #{&}_subtitle {
         margin-top: .7em;
         @include tipografia(avenir, 2em);
@@ -71,7 +71,7 @@
 .content {
     @extend %flex;
     @extend %flex--between;
-    
+
     p {
         font: {
             //weight: 700;
@@ -80,34 +80,34 @@
         width: 76%;
         //padding-top: 1rem;
     }
-    
-    span, li{
+
+    span, .der{
         cursor: pointer;
         text-decoration: underline;
         color: $colorTitle;
         float: right;
     }
-    li {
+    .der {
         float: none;
     }
-    
+
     img {
         width: 20%; height: 325px;
     }
-    
+
 }
 
 .slide-cover {
     width: 90%;
     margin: 0 auto;
     padding-top: 2.5rem;
-    
+
     .slide-cover_p {
         width: 59%;
         padding-top: 0;
         -webkit-margin-before: 0;
         -webkit-margin-after: 0;
-        
+
         li {
             list-style-type: disc;
             font-weight: 700;
@@ -118,7 +118,7 @@
             }
         }
     }
-    
+
     .slide-cover_img {
         width: 40%;
     }
@@ -130,8 +130,8 @@
 
 
 .glosario {
-    h2.subtitulo { 
-        margin-bottom: 5px; 
+    h2.subtitulo {
+        margin-bottom: 5px;
         text-align: left;
         font-size: 1.6em;
     }
