@@ -159,14 +159,14 @@ p {
   width: 76%;
 }
 
-.content span, .content li {
+.content span, .content .der {
   cursor: pointer;
   text-decoration: underline;
   color: #12aca3;
   float: right;
 }
 
-.content li {
+.content .der {
   float: none;
 }
 
