@@ -39,3 +39,10 @@ li {
     font-size: 1.2em;
     cursor: pointer;
 }
+
+.fp-controlArrow.fp-prev {
+    border-color: transparent lightgray transparent transparent;
+}
+.fp-controlArrow.fp-next {
+    border-color: transparent transparent transparent lightgray;
+}

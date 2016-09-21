@@ -17,7 +17,7 @@
         <a data-menuanchor="2" class="myMenu__link" href="#2">Inicio</a>
         <a data-menuanchor="3" class="myMenu__link" href="#3">Conceptos Generales</a>
         <a data-menuanchor="4" class="myMenu__link" href="#4">Contexto de la ESCI</a>
-        <a data-menuanchor="5" class="myMenu__link" href="#5">ESCI en viajes y Turismo</a>
+        <a data-menuanchor="5" class="myMenu__link" href="#5/0">ESCI en viajes y Turismo</a>
         <a data-menuanchor="6" class="myMenu__link" href="#6">Prevencion de la ESCI</a>
         <a data-menuanchor="7" class="myMenu__link" href="#7">Marco Normativo</a>
     </ul>
@@ -1012,8 +1012,8 @@
                 //sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
                 slidesNavigation: true,
                 //slideSelector: '.btnslide',
-                //showActiveTooltip: true,
-                //navigationTooltips: ['firstSlide', 'secondSlide'],
+                showActiveTooltip: true,
+                navigationTooltips: ['firstSlide', 'secondSlide', 'secondSlide', 'secondSlide', 'secondSlide', 'secondSlide', 'secondSlide', 'secondSlide', 'secondSlide'],
                 anchors:['1', '2', '3','4','5','6','7','8'],
                 afterLoad: function(anchorLink, index){
                     $menu = $("#myMenu");
@@ -1032,8 +1032,9 @@
                         $(".myMenu__link").css("background-color", "rgba(200,200,200,0.7)");
                     }
                 },
-                /*onLeave: function(index, nextIndex, direction){
-                    $menu = $("#myMenu");
+                onLeave: function(index, nextIndex, direction){
+                    $.fn.fullpage.moveTo(index, 0);
+                    /*$menu = $("#myMenu");
 
                     if(index == 1){
                         $menu.animate({top: "100vh"});
@@ -1041,8 +1042,8 @@
                         $menu.animate({top: "50vh"});
                     } else {
                         $menu.animate({top: "0"});
-                    }
-                }*/
+                    }*/
+                }
             });
 
             /*tooltips y sus atributos*/
@@ -1054,7 +1055,6 @@
                 $(this).attr("title", arreglo[index]);
                 //$(this).appendChild(elemento);
             });
-
             /**Inicializar bootstrap tooltips*/
             $('[data-toggle="tooltip"]').tooltip();
 

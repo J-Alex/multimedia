@@ -81,16 +81,18 @@
         //padding-top: 1rem;
     }
     
-    span{
+    span, li{
         cursor: pointer;
         text-decoration: underline;
         color: $colorTitle;
         float: right;
     }
+    li {
+        float: none;
+    }
     
     img {
         width: 20%; height: 325px;
-        
     }
     
 }

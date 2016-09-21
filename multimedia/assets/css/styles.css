@@ -39,6 +39,14 @@ li {
   cursor: pointer;
 }
 
+.fp-controlArrow.fp-prev {
+  border-color: transparent lightgray transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent lightgray;
+}
+
 /*
  *    FONTS
  */
@@ -151,11 +159,15 @@ p {
   width: 76%;
 }
 
-.content span {
+.content span, .content li {
   cursor: pointer;
   text-decoration: underline;
   color: #12aca3;
   float: right;
+}
+
+.content li {
+  float: none;
 }
 
 .content img {
